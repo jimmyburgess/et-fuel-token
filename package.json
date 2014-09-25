@@ -1,0 +1,34 @@
+{
+  "name": "fuel-token-middleware",
+  "version": "0.0.0",
+  "description": "fuel-token-middle npm package",
+  "main": "./lib/fuel-token-middleware",
+  "config": {
+    "travis-cov": {
+    }
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.exacttarget.com:srini/npm-fuel-token.git"
+  },
+  "dependencies": {
+    "config": "~0.4.33",
+    "express": "~3.4.7",
+    "request": "~2.30.0",
+    "jwt-simple": "~0.1.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "chai": "^1.9.1",
+    "grunt": "~0.4.4",
+    "grunt-cli": "^0.1.13",
+    "grunt-mocha-test": "^0.11.0",
+    "sinon": "~1.7.3",
+    "supertest": "~0.8.2"
+  }
+}
