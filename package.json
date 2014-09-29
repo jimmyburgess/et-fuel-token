@@ -1,7 +1,7 @@
 {
-  "name": "fuel-token-middleware",
+  "name": "et-fuel-token",
   "version": "0.0.0",
-  "description": "fuel-token-middle npm package",
+  "description": "fuel-token-middleware npm package",
   "main": "./lib/fuel-token-middleware",
   "config": {
     "travis-cov": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.exacttarget.com:NodeModules/npm-fuel-token.git"
+    "url": "git@github.exacttarget.com:NodeModules/et-fuel-token.git"
   },
   "dependencies": {
     "config": "~0.4.33",
