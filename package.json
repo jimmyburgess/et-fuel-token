@@ -23,11 +23,11 @@
     "email": "srini@exacttarget.com"
   },
   "devDependencies": {
-    "blanket": "^1.1.6",
-    "chai": "^1.9.1",
+    "blanket": "~1.1.6",
+    "chai": "~1.9.1",
     "grunt": "~0.4.4",
-    "grunt-cli": "^0.1.13",
-    "grunt-mocha-test": "^0.11.0",
-    "travis-cov": "^0.2.5"
+    "grunt-cli": "~0.1.13",
+    "grunt-mocha-test": "~0.11.0",
+    "travis-cov": "~0.2.5"
   }
 }
