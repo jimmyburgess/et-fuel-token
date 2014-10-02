@@ -1,11 +1,10 @@
 {
   "name": "et-fuel-token",
-  "version": "0.0.0",
-  "description": "fuel-token-middleware npm package",
+  "version": "0.0.1",
+  "description": "ET Fuel token authentication nodejs implementation",
   "main": "./lib/fuel-token-middleware",
   "config": {
-    "travis-cov": {
-    }
+    "travis-cov": {}
   },
   "scripts": {
     "test": "grunt"
@@ -15,19 +14,20 @@
     "url": "git@github.exacttarget.com:NodeModules/et-fuel-token.git"
   },
   "dependencies": {
-    "config": "~0.4.33",
     "express": "~3.4.7",
     "request": "~2.30.0",
     "jwt-simple": "~0.1.0"
   },
-  "author": "Scott Rini",
+  "author": {
+    "name": "Scott Rini",
+    "email": "srini@exacttarget.com"
+  },
   "devDependencies": {
     "blanket": "^1.1.6",
     "chai": "^1.9.1",
     "grunt": "~0.4.4",
     "grunt-cli": "^0.1.13",
     "grunt-mocha-test": "^0.11.0",
-    "sinon": "~1.7.3",
-    "supertest": "~0.8.2"
+    "travis-cov": "^0.2.5"
   }
 }
