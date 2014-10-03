@@ -19,9 +19,19 @@
     "jwt-simple": "~0.1.0"
   },
   "author": {
-    "name": "Scott Rini",
-    "email": "srini@exacttarget.com"
+    "name": "ExactTarget",
+    "email": "code@exacttarget.com"
   },
+  "contributors": [
+    {
+      "name": "Scott Rini",
+      "email": "srini@exacttarget.com"
+    },
+    {
+      "name": "Brian Brinegar",
+      "email": "bbrinegar@exacttarget.com"
+    }
+  ],
   "devDependencies": {
     "blanket": "~1.1.6",
     "chai": "~1.9.1",
