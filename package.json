@@ -1,6 +1,6 @@
 {
   "name": "et-fuel-token",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ET Fuel token authentication nodejs implementation",
   "main": "./lib/fuel-token-middleware",
   "config": {
